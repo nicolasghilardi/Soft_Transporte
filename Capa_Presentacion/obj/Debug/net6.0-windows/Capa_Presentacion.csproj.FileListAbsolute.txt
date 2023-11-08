@@ -20,3 +20,4 @@ E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Capa_Presentacion\o
 E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Capa_Presentacion\obj\Debug\net6.0-windows\Capa_Presentacion.pdb
 E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Capa_Presentacion\obj\Debug\net6.0-windows\Capa_Presentacion.genruntimeconfig.cache
 E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Capa_Presentacion\obj\Debug\net6.0-windows\ref\Capa_Presentacion.dll
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Capa_Presentacion\obj\Debug\net6.0-windows\Capa_Presentacion.Properties.Resources.resources
