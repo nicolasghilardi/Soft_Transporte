@@ -1,0 +1,15 @@
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\bin\Debug\net6.0\CapaDatos.dll
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\bin\Debug\net6.0\CapaDatos.pdb
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+E:\PROGRAMACION\PROYECTOS\05_Soft_Transporte\Soft_Transporte\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
