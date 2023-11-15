@@ -106,10 +106,11 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
+            checkBox1.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             checkBox1.ForeColor = Color.White;
             checkBox1.Location = new Point(348, 337);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(160, 24);
+            checkBox1.Size = new Size(157, 21);
             checkBox1.TabIndex = 6;
             checkBox1.Text = "Mostrar Contraseña";
             checkBox1.UseVisualStyleBackColor = true;
