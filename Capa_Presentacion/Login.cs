@@ -26,5 +26,12 @@ namespace Capa_Presentacion
         {
             Application.Exit();
         }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+            Menu menu1 = new Menu();
+            menu1.Show();
+            Hide();
+        }
     }
 }

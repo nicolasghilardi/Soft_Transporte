@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj": {}
+    "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj": {}
   },
   "projects": {
-    "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj": {
+    "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaDatos\\obj\\",
+        "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj",
+        "packagesPath": "C:\\Users\\nghil\\.nuget\\packages\\",
+        "outputPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nghil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,20 +59,17 @@
         }
       }
     },
-    "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj": {
+    "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj",
+        "projectUniqueName": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj",
         "projectName": "CapaNegocios",
-        "projectPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaNegocios\\obj\\",
+        "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj",
+        "packagesPath": "C:\\Users\\nghil\\.nuget\\packages\\",
+        "outputPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nghil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj"
+              "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj"
               }
             }
           }
@@ -124,20 +118,17 @@
         }
       }
     },
-    "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj": {
+    "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj",
+        "projectUniqueName": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj",
         "projectName": "Capa_Presentacion",
-        "projectPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\obj\\",
+        "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj",
+        "packagesPath": "C:\\Users\\nghil\\.nuget\\packages\\",
+        "outputPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nghil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -151,8 +142,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj": {
-                "projectPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj"
+              "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj": {
+                "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj"
               }
             }
           }

@@ -8,23 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Administrador\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\nghil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj",
+      "projectUniqueName": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj",
       "projectName": "CapaDatos",
-      "projectPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj",
-      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "F:\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Soft_Transporte\\CapaDatos\\obj\\",
+      "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaDatos\\CapaDatos.csproj",
+      "packagesPath": "C:\\Users\\nghil\\.nuget\\packages\\",
+      "outputPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaDatos\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nghil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -69,5 +69,15 @@ namespace Capa_Presentacion.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo_Prueba_Los_Pamperos_ {
+            get {
+                object obj = ResourceManager.GetObject("Logo Prueba-Los Pamperos-", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

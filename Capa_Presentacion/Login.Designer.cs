@@ -102,6 +102,7 @@
             btnIniciar.TabIndex = 5;
             btnIniciar.Text = "Iniciar";
             btnIniciar.UseVisualStyleBackColor = true;
+            btnIniciar.Click += btnIniciar_Click;
             // 
             // checkBox1
             // 
