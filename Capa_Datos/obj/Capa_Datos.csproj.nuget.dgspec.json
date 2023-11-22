@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj": {}
+    "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Datos\\Capa_Datos.csproj": {}
   },
   "projects": {
-    "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj": {
+    "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Datos\\Capa_Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj",
-        "projectName": "CapaNegocios",
-        "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\CapaNegocios.csproj",
+        "projectUniqueName": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Datos\\Capa_Datos.csproj",
+        "projectName": "Capa_Datos",
+        "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Datos\\Capa_Datos.csproj",
         "packagesPath": "C:\\Users\\nghil\\.nuget\\packages\\",
-        "outputPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\CapaNegocios\\obj\\",
+        "outputPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nghil\\AppData\\Roaming\\NuGet\\NuGet.Config",

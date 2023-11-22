@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
+    "net6.0": {
       "Capa_Datos/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/Capa_Datos.dll": {}
         }
-      },
-      "Capa_Negocio/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Capa_Datos": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Capa_Negocio.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Capa_Negocio.dll": {}
-        }
       }
     }
   },
@@ -32,16 +19,11 @@
       "type": "project",
       "path": "../Capa_Datos/Capa_Datos.csproj",
       "msbuildProject": "../Capa_Datos/Capa_Datos.csproj"
-    },
-    "Capa_Negocio/1.0.0": {
-      "type": "project",
-      "path": "../Capa_Negocio/Capa_Negocio.csproj",
-      "msbuildProject": "../Capa_Negocio/Capa_Negocio.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
-      "Capa_Negocio >= 1.0.0"
+    "net6.0": [
+      "Capa_Datos >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -50,29 +32,29 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj",
-      "projectName": "Capa_Presentacion",
-      "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\Capa_Presentacion.csproj",
+      "projectUniqueName": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Negocio\\Capa_Negocio.csproj",
+      "projectName": "Capa_Negocio",
+      "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Negocio\\Capa_Negocio.csproj",
       "packagesPath": "C:\\Users\\nghil\\.nuget\\packages\\",
-      "outputPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Presentacion\\obj\\",
+      "outputPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Negocio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nghil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Negocio\\Capa_Negocio.csproj": {
-              "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Negocio\\Capa_Negocio.csproj"
+            "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Datos\\Capa_Datos.csproj": {
+              "projectPath": "E:\\PROGRAMACION\\PROYECTOS\\05_Soft_Transporte\\Soft_Transporte\\Capa_Datos\\Capa_Datos.csproj"
             }
           }
         }
@@ -84,8 +66,8 @@
       }
     },
     "frameworks": {
-      "net6.0-windows7.0": {
-        "targetAlias": "net6.0-windows",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -100,9 +82,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
