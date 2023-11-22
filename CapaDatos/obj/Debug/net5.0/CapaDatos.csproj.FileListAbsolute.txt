@@ -1,0 +1,5 @@
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Debug\net5.0\CapaDatos.csproj.AssemblyReference.cache
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Debug\net5.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Debug\net5.0\CapaDatos.AssemblyInfoInputs.cache
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Debug\net5.0\CapaDatos.AssemblyInfo.cs
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Debug\net5.0\CapaDatos.csproj.CoreCompileInputs.cache
