@@ -22,5 +22,12 @@ namespace Capa_Presentacion
             Salir salir1 = new Salir();
             salir1.ShowDialog();
         }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            Clientes clientes1 = new Clientes();
+            clientes1.Show();
+            Hide();
+        }
     }
 }
