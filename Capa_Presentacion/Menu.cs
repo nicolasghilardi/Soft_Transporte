@@ -29,5 +29,12 @@ namespace Capa_Presentacion
             clientes1.Show();
             Hide();
         }
+
+        private void btnCamiones_Click(object sender, EventArgs e)
+        {
+            Camiones camiones1 = new Camiones();
+            camiones1.Show();
+            Hide();
+        }
     }
 }

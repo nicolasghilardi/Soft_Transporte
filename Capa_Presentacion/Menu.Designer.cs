@@ -53,6 +53,7 @@
             btnCamiones.TabIndex = 0;
             btnCamiones.Text = "Camiones";
             btnCamiones.UseVisualStyleBackColor = false;
+            btnCamiones.Click += btnCamiones_Click;
             // 
             // btnChoferes
             // 
