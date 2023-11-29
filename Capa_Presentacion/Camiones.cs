@@ -45,7 +45,7 @@ namespace Capa_Presentacion
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("No se pudo agregar el cliente por: " + ex);
+                    MessageBox.Show("No se pudo agregar el camion por: " + ex);
                 }
             if (EditarC == true)
             {

@@ -67,6 +67,7 @@
             btnChoferes.TabIndex = 1;
             btnChoferes.Text = "Choferes";
             btnChoferes.UseVisualStyleBackColor = false;
+            btnChoferes.Click += btnChoferes_Click;
             // 
             // btnClientes
             // 

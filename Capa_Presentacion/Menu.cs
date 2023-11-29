@@ -36,5 +36,12 @@ namespace Capa_Presentacion
             camiones1.Show();
             Hide();
         }
+
+        private void btnChoferes_Click(object sender, EventArgs e)
+        {
+            Choferes choferes1 = new Choferes();
+            choferes1.Show();
+            Hide();
+        }
     }
 }

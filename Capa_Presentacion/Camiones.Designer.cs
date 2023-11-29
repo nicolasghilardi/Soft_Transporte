@@ -337,7 +337,8 @@
             // 
             // dataGridCamiones
             // 
-            dataGridCamiones.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            dataGridCamiones.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dataGridCamiones.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridCamiones.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridCamiones.Location = new Point(334, 45);
             dataGridCamiones.Name = "dataGridCamiones";
