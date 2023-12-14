@@ -95,9 +95,13 @@ namespace Capa_Presentacion
             if (dataGridChoferes.SelectedRows.Count > 0)
             {
                 idChofer = dataGridChoferes.CurrentRow.Cells["ID Chofer"].Value.ToString();
-                objetoChN.EliminarNChofer(idChofer);
-                MessageBox.Show("Chofer eliminado corretamente");
-                MostrarChofer();
+                DialogResult result = MessageBox.Show("¿Seguro quieres eliminar el Chofer?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    objetoChN.EliminarNChofer(idChofer);
+                    MessageBox.Show("Chofer eliminado corretamente");
+                    MostrarChofer();
+                }
             }
             else
                 MessageBox.Show("Seleccione una Fila por favor");

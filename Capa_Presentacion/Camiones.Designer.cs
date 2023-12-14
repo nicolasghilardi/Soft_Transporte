@@ -86,7 +86,7 @@
             btnCerrar.Location = new Point(1195, 3);
             btnCerrar.Name = "btnCerrar";
             btnCerrar.Size = new Size(31, 29);
-            btnCerrar.TabIndex = 18;
+            btnCerrar.TabIndex = 12;
             btnCerrar.UseVisualStyleBackColor = true;
             btnCerrar.Click += btnCerrar_Click;
             // 
@@ -102,7 +102,7 @@
             btnMximizar.Location = new Point(1160, 3);
             btnMximizar.Name = "btnMximizar";
             btnMximizar.Size = new Size(31, 29);
-            btnMximizar.TabIndex = 18;
+            btnMximizar.TabIndex = 11;
             btnMximizar.UseVisualStyleBackColor = true;
             btnMximizar.Click += btnMximizar_Click;
             // 
@@ -116,7 +116,7 @@
             btnMinimizar.Location = new Point(1123, 3);
             btnMinimizar.Name = "btnMinimizar";
             btnMinimizar.Size = new Size(31, 29);
-            btnMinimizar.TabIndex = 18;
+            btnMinimizar.TabIndex = 10;
             btnMinimizar.UseVisualStyleBackColor = true;
             btnMinimizar.Click += btnMinimizar_Click;
             // 
@@ -129,7 +129,7 @@
             btnMenu.Location = new Point(8, 3);
             btnMenu.Name = "btnMenu";
             btnMenu.Size = new Size(59, 29);
-            btnMenu.TabIndex = 3;
+            btnMenu.TabIndex = 9;
             btnMenu.Text = "Menu";
             btnMenu.UseVisualStyleBackColor = true;
             btnMenu.Click += btnMenu_Click;
@@ -203,7 +203,7 @@
             btnEliminarCamion.Location = new Point(3, 248);
             btnEliminarCamion.Name = "btnEliminarCamion";
             btnEliminarCamion.Size = new Size(88, 23);
-            btnEliminarCamion.TabIndex = 31;
+            btnEliminarCamion.TabIndex = 8;
             btnEliminarCamion.Text = "Eliminar";
             btnEliminarCamion.UseVisualStyleBackColor = true;
             btnEliminarCamion.Click += btnEliminarCamion_Click;
@@ -214,7 +214,7 @@
             btnEditarCamion.Location = new Point(117, 248);
             btnEditarCamion.Name = "btnEditarCamion";
             btnEditarCamion.Size = new Size(88, 23);
-            btnEditarCamion.TabIndex = 30;
+            btnEditarCamion.TabIndex = 7;
             btnEditarCamion.Text = "Editar";
             btnEditarCamion.UseVisualStyleBackColor = true;
             btnEditarCamion.Click += btnEditarCamion_Click;
@@ -225,7 +225,7 @@
             btnAgregarCamion.Location = new Point(232, 248);
             btnAgregarCamion.Name = "btnAgregarCamion";
             btnAgregarCamion.Size = new Size(88, 23);
-            btnAgregarCamion.TabIndex = 29;
+            btnAgregarCamion.TabIndex = 6;
             btnAgregarCamion.Text = "Agregar";
             btnAgregarCamion.UseVisualStyleBackColor = true;
             btnAgregarCamion.Click += btnAgregarCamion_Click;
@@ -237,7 +237,7 @@
             txtPatenteCamion.Margin = new Padding(3, 2, 3, 2);
             txtPatenteCamion.Name = "txtPatenteCamion";
             txtPatenteCamion.Size = new Size(213, 22);
-            txtPatenteCamion.TabIndex = 28;
+            txtPatenteCamion.TabIndex = 3;
             // 
             // label4
             // 
@@ -266,7 +266,7 @@
             txtObsCamion.Margin = new Padding(3, 2, 3, 2);
             txtObsCamion.Name = "txtObsCamion";
             txtObsCamion.Size = new Size(214, 22);
-            txtObsCamion.TabIndex = 25;
+            txtObsCamion.TabIndex = 5;
             // 
             // label6
             // 
@@ -285,7 +285,7 @@
             txtCapacidadCamion.Margin = new Padding(3, 2, 3, 2);
             txtCapacidadCamion.Name = "txtCapacidadCamion";
             txtCapacidadCamion.Size = new Size(214, 22);
-            txtCapacidadCamion.TabIndex = 23;
+            txtCapacidadCamion.TabIndex = 4;
             // 
             // label3
             // 
@@ -314,7 +314,7 @@
             txtModeloCamion.Margin = new Padding(3, 2, 3, 2);
             txtModeloCamion.Name = "txtModeloCamion";
             txtModeloCamion.Size = new Size(214, 22);
-            txtModeloCamion.TabIndex = 20;
+            txtModeloCamion.TabIndex = 2;
             // 
             // label1
             // 
@@ -333,15 +333,17 @@
             txtMarcaCamion.Margin = new Padding(3, 2, 3, 2);
             txtMarcaCamion.Name = "txtMarcaCamion";
             txtMarcaCamion.Size = new Size(214, 22);
-            txtMarcaCamion.TabIndex = 18;
+            txtMarcaCamion.TabIndex = 1;
             // 
             // dataGridCamiones
             // 
             dataGridCamiones.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridCamiones.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridCamiones.BackgroundColor = Color.FromArgb(236, 227, 206);
             dataGridCamiones.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridCamiones.Location = new Point(334, 45);
             dataGridCamiones.Name = "dataGridCamiones";
+            dataGridCamiones.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridCamiones.Size = new Size(897, 449);
             dataGridCamiones.TabIndex = 34;
             // 

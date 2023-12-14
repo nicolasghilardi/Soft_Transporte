@@ -123,9 +123,13 @@ namespace Capa_Presentacion
             if (dataGridView1.SelectedRows.Count > 0)
             {
                 idCliente = dataGridView1.CurrentRow.Cells["ID Cliente"].Value.ToString();
-                objetoCliN.EliminarNCliente(idCliente);
-                MessageBox.Show("Cliente eliminado corretamente");
-                MostrarCliente();
+                DialogResult result = MessageBox.Show("¿Seguro quieres eliminar el Cliente?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    objetoCliN.EliminarNCliente(idCliente);
+                    MessageBox.Show("Cliente eliminado corretamente");
+                    MostrarCliente();
+                }
             }
             else
                 MessageBox.Show("Seleccione una Fila por favor");

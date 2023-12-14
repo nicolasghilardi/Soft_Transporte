@@ -62,7 +62,7 @@
             txtNombreCliente.Margin = new Padding(3, 2, 3, 2);
             txtNombreCliente.Name = "txtNombreCliente";
             txtNombreCliente.Size = new Size(261, 22);
-            txtNombreCliente.TabIndex = 0;
+            txtNombreCliente.TabIndex = 1;
             // 
             // label1
             // 
@@ -130,7 +130,7 @@
             txtObsCliente.Margin = new Padding(3, 2, 3, 2);
             txtObsCliente.Name = "txtObsCliente";
             txtObsCliente.Size = new Size(517, 22);
-            txtObsCliente.TabIndex = 7;
+            txtObsCliente.TabIndex = 5;
             // 
             // label6
             // 
@@ -149,7 +149,7 @@
             txtCorreoCliente.Margin = new Padding(3, 2, 3, 2);
             txtCorreoCliente.Name = "txtCorreoCliente";
             txtCorreoCliente.Size = new Size(517, 22);
-            txtCorreoCliente.TabIndex = 5;
+            txtCorreoCliente.TabIndex = 4;
             // 
             // txtDirCliente
             // 
@@ -158,7 +158,7 @@
             txtDirCliente.Margin = new Padding(3, 2, 3, 2);
             txtDirCliente.Name = "txtDirCliente";
             txtDirCliente.Size = new Size(517, 22);
-            txtDirCliente.TabIndex = 10;
+            txtDirCliente.TabIndex = 3;
             // 
             // btnAgregarCliente
             // 
@@ -166,7 +166,7 @@
             btnAgregarCliente.Location = new Point(1018, 69);
             btnAgregarCliente.Name = "btnAgregarCliente";
             btnAgregarCliente.Size = new Size(88, 23);
-            btnAgregarCliente.TabIndex = 11;
+            btnAgregarCliente.TabIndex = 6;
             btnAgregarCliente.Text = "Agregar";
             btnAgregarCliente.UseVisualStyleBackColor = true;
             btnAgregarCliente.Click += btnAgregarCliente_Click;
@@ -177,7 +177,7 @@
             btnEditarCliente.Location = new Point(1018, 94);
             btnEditarCliente.Name = "btnEditarCliente";
             btnEditarCliente.Size = new Size(88, 23);
-            btnEditarCliente.TabIndex = 12;
+            btnEditarCliente.TabIndex = 7;
             btnEditarCliente.Text = "Editar";
             btnEditarCliente.UseVisualStyleBackColor = true;
             btnEditarCliente.Click += btnEditarCliente_Click;
@@ -188,7 +188,7 @@
             btnEliminarCliente.Location = new Point(1018, 118);
             btnEliminarCliente.Name = "btnEliminarCliente";
             btnEliminarCliente.Size = new Size(88, 23);
-            btnEliminarCliente.TabIndex = 13;
+            btnEliminarCliente.TabIndex = 8;
             btnEliminarCliente.Text = "Eliminar";
             btnEliminarCliente.UseVisualStyleBackColor = true;
             btnEliminarCliente.Click += btnEliminarCliente_Click;
@@ -208,10 +208,12 @@
             // 
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.BackgroundColor = Color.FromArgb(236, 227, 206);
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(8, 150);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.Size = new Size(1234, 378);
             dataGridView1.TabIndex = 15;
             // 
@@ -237,7 +239,7 @@
             btnMenu.Location = new Point(8, 3);
             btnMenu.Name = "btnMenu";
             btnMenu.Size = new Size(59, 29);
-            btnMenu.TabIndex = 3;
+            btnMenu.TabIndex = 9;
             btnMenu.Text = "Menu";
             btnMenu.UseVisualStyleBackColor = true;
             btnMenu.Click += btnMenu_Click;
@@ -252,7 +254,7 @@
             button5.Location = new Point(1138, 3);
             button5.Name = "button5";
             button5.Size = new Size(31, 29);
-            button5.TabIndex = 2;
+            button5.TabIndex = 10;
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
@@ -268,7 +270,7 @@
             button4.Location = new Point(1175, 3);
             button4.Name = "button4";
             button4.Size = new Size(31, 29);
-            button4.TabIndex = 1;
+            button4.TabIndex = 11;
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
@@ -284,7 +286,7 @@
             btnClose.Location = new Point(1212, 3);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(31, 29);
-            btnClose.TabIndex = 0;
+            btnClose.TabIndex = 12;
             btnClose.UseVisualStyleBackColor = true;
             btnClose.Click += btnClose_Click;
             // 

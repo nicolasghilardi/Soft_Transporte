@@ -29,9 +29,28 @@ namespace Capa_Presentacion
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
-            Menu menu1 = new Menu();
-            menu1.Show();
-            Hide();
+            if (this.textBox1.Text == "Supervisor" || this.textBox2.Text == "Admin1234")
+            {
+                Menu menu1 = new Menu();
+                menu1.Show();
+                Hide();
+
+            }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                if (textBox2.PasswordChar == '*')
+                {
+                    textBox2.PasswordChar = '\0';
+                }
+            }
+            else
+            {
+                textBox2.PasswordChar = '*';
+            }
         }
     }
 }

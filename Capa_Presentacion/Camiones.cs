@@ -93,9 +93,13 @@ namespace Capa_Presentacion
             if (dataGridCamiones.SelectedRows.Count > 0)
             {
                 idCamion = dataGridCamiones.CurrentRow.Cells["ID Camion"].Value.ToString();
-                objetoCamN.EliminarNCamion(idCamion);
-                MessageBox.Show("Camion eliminado corretamente");
-                MostrarCamion();
+                DialogResult result = MessageBox.Show("¿Seguro quieres eliminar el Camion?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    objetoCamN.EliminarNCamion(idCamion);
+                    MessageBox.Show("Camion eliminado corretamente");
+                    MostrarCamion();
+                }
             }
             else
                 MessageBox.Show("Seleccione una Fila por favor");

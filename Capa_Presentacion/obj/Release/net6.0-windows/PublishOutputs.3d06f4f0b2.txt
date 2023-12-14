@@ -1,0 +1,15 @@
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\Capa_Presentacion.exe
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\Capa_Presentacion.dll
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\Capa_Presentacion.deps.json
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\Capa_Presentacion.runtimeconfig.json
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\Capa_Presentacion.pdb
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\System.Data.SqlClient.dll
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\runtimes\win-arm64\native\sni.dll
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\runtimes\win-x64\native\sni.dll
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\runtimes\win-x86\native\sni.dll
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\CapaDatos.dll
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\CapaNegocios.dll
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\CapaNegocios.pdb
+F:\PROYECTOS\05_Soft_Transporte\Entregas\v1.0\CapaDatos.pdb

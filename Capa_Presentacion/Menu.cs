@@ -43,5 +43,12 @@ namespace Capa_Presentacion
             choferes1.Show();
             Hide();
         }
+
+        private void btnViajes_Click(object sender, EventArgs e)
+        {
+            Viajes viajes1 = new Viajes();
+            viajes1.Show();
+            Hide();
+        }
     }
 }

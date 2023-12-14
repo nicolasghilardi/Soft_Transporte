@@ -84,7 +84,7 @@
             btnMinimizar.Location = new Point(1121, 3);
             btnMinimizar.Name = "btnMinimizar";
             btnMinimizar.Size = new Size(31, 29);
-            btnMinimizar.TabIndex = 20;
+            btnMinimizar.TabIndex = 10;
             btnMinimizar.UseVisualStyleBackColor = true;
             btnMinimizar.Click += btnMinimizar_Click;
             // 
@@ -97,7 +97,7 @@
             btnMenu.Location = new Point(8, 3);
             btnMenu.Name = "btnMenu";
             btnMenu.Size = new Size(59, 29);
-            btnMenu.TabIndex = 3;
+            btnMenu.TabIndex = 9;
             btnMenu.Text = "Menu";
             btnMenu.UseVisualStyleBackColor = true;
             btnMenu.Click += btnMenu_Click;
@@ -114,7 +114,7 @@
             btnMaximizar.Location = new Point(1158, 3);
             btnMaximizar.Name = "btnMaximizar";
             btnMaximizar.Size = new Size(31, 29);
-            btnMaximizar.TabIndex = 19;
+            btnMaximizar.TabIndex = 11;
             btnMaximizar.UseVisualStyleBackColor = true;
             btnMaximizar.Click += btnMaximizar_Click;
             // 
@@ -143,7 +143,7 @@
             btnCerrar.Location = new Point(1195, 3);
             btnCerrar.Name = "btnCerrar";
             btnCerrar.Size = new Size(31, 29);
-            btnCerrar.TabIndex = 18;
+            btnCerrar.TabIndex = 12;
             btnCerrar.UseVisualStyleBackColor = true;
             btnCerrar.Click += btnCerrar_Click;
             // 
@@ -193,7 +193,7 @@
             btnEliminarChofer.Location = new Point(15, 245);
             btnEliminarChofer.Name = "btnEliminarChofer";
             btnEliminarChofer.Size = new Size(88, 23);
-            btnEliminarChofer.TabIndex = 47;
+            btnEliminarChofer.TabIndex = 8;
             btnEliminarChofer.Text = "Eliminar";
             btnEliminarChofer.UseVisualStyleBackColor = true;
             btnEliminarChofer.Click += btnEliminarChofer_Click;
@@ -204,7 +204,7 @@
             btnEditarChofer.Location = new Point(129, 245);
             btnEditarChofer.Name = "btnEditarChofer";
             btnEditarChofer.Size = new Size(88, 23);
-            btnEditarChofer.TabIndex = 46;
+            btnEditarChofer.TabIndex = 7;
             btnEditarChofer.Text = "Editar";
             btnEditarChofer.UseVisualStyleBackColor = true;
             btnEditarChofer.Click += btnEditarChofer_Click;
@@ -215,7 +215,7 @@
             btnAgregarChofer.Location = new Point(244, 245);
             btnAgregarChofer.Name = "btnAgregarChofer";
             btnAgregarChofer.Size = new Size(88, 23);
-            btnAgregarChofer.TabIndex = 45;
+            btnAgregarChofer.TabIndex = 6;
             btnAgregarChofer.Text = "Agregar";
             btnAgregarChofer.UseVisualStyleBackColor = true;
             btnAgregarChofer.Click += btnAgregarChofer_Click;
@@ -227,7 +227,7 @@
             txtDocumento.Margin = new Padding(3, 2, 3, 2);
             txtDocumento.Name = "txtDocumento";
             txtDocumento.Size = new Size(213, 22);
-            txtDocumento.TabIndex = 44;
+            txtDocumento.TabIndex = 3;
             // 
             // label4
             // 
@@ -256,7 +256,7 @@
             txtAntiguedad.Margin = new Padding(3, 2, 3, 2);
             txtAntiguedad.Name = "txtAntiguedad";
             txtAntiguedad.Size = new Size(214, 22);
-            txtAntiguedad.TabIndex = 41;
+            txtAntiguedad.TabIndex = 5;
             // 
             // label6
             // 
@@ -275,7 +275,7 @@
             txtTelefono.Margin = new Padding(3, 2, 3, 2);
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(214, 22);
-            txtTelefono.TabIndex = 39;
+            txtTelefono.TabIndex = 4;
             // 
             // label3
             // 
@@ -304,7 +304,7 @@
             txtLicencia.Margin = new Padding(3, 2, 3, 2);
             txtLicencia.Name = "txtLicencia";
             txtLicencia.Size = new Size(214, 22);
-            txtLicencia.TabIndex = 36;
+            txtLicencia.TabIndex = 2;
             // 
             // label1
             // 
@@ -323,7 +323,7 @@
             txtNombreChofer.Margin = new Padding(3, 2, 3, 2);
             txtNombreChofer.Name = "txtNombreChofer";
             txtNombreChofer.Size = new Size(214, 22);
-            txtNombreChofer.TabIndex = 34;
+            txtNombreChofer.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -339,9 +339,11 @@
             // 
             dataGridChoferes.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridChoferes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridChoferes.BackgroundColor = Color.FromArgb(236, 227, 206);
             dataGridChoferes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridChoferes.Location = new Point(338, 41);
             dataGridChoferes.Name = "dataGridChoferes";
+            dataGridChoferes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridChoferes.Size = new Size(897, 449);
             dataGridChoferes.TabIndex = 49;
             // 

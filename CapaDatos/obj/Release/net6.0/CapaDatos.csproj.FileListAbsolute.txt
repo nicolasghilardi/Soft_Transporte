@@ -1,0 +1,12 @@
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\bin\Release\net6.0\CapaDatos.deps.json
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\bin\Release\net6.0\CapaDatos.dll
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\bin\Release\net6.0\CapaDatos.pdb
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Release\net6.0\CapaDatos.csproj.AssemblyReference.cache
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Release\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Release\net6.0\CapaDatos.AssemblyInfoInputs.cache
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Release\net6.0\CapaDatos.AssemblyInfo.cs
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Release\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Release\net6.0\CapaDatos.dll
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Release\net6.0\refint\CapaDatos.dll
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Release\net6.0\CapaDatos.pdb
+F:\PROYECTOS\05_Soft_Transporte\Soft_Transporte\Soft_Transporte\CapaDatos\obj\Release\net6.0\ref\CapaDatos.dll

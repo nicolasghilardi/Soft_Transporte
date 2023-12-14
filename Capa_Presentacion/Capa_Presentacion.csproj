@@ -6,7 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Logo Prueba-Los Pamperos-.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Logo Prueba-Los Pamperos-.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj" />

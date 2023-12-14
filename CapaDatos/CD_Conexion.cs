@@ -10,7 +10,8 @@ namespace CapaDatos
 {
     public class CD_Conexion
     {
-        private SqlConnection Conexion = new SqlConnection("Server=(local);DataBase=Soft_Transporte_SQL; Integrated Security=true");
+        private SqlConnection Conexion = new SqlConnection("Server=PAMPEROS;DataBase=Soft_Transporte_SQL; Integrated Security=true");
+        //private SqlConnection Conexion = new SqlConnection("Server=(local);DataBase=Soft_Transporte_SQL; Integrated Security=true");
 
         public SqlConnection AbrirConexion()
         {

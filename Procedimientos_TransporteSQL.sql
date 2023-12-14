@@ -42,9 +42,10 @@ as
 delete from clientes where idCliente=@idCliente
 go
 
+
 create proc ListarCliente
 as
-select *from cleintes order by idCliente asc
+select *from clientes order by idCliente asc
 go
 
 /*PROCEDIMIENTOS PARA TABLA CAMIONES*/
@@ -145,7 +146,7 @@ create proc MostrarViajes
 as
 select
 idViaje as "ID",
-camiones.marca as Camion,
+camiones.patente as Camion,
 choferes.nombreChofer as Chofer,
 clientes.nombreCliente as Cliente,
 fechaViaje as Fecha,
@@ -174,6 +175,7 @@ as
 insert into viajes values (@idCamion, @idChofer, @idCliente, @fechaViaje, @origen, @destino, @carga, @costo, @observacionViaje)
 go
 
+
 create proc EditarViaje
 @idViaje bigint,
 @idCamion int,
@@ -195,3 +197,7 @@ as
 delete from viajes where idViaje=@idViaje
 go
 
+insert into viajes 
+values ( '4','3','4', '2023-12-12', 'Lujan', 'Maipu', 'Maiz', '2500', 'Entrega inmediata');
+
+select *from viajes

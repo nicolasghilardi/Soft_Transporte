@@ -50,7 +50,7 @@
             btnCamiones.Margin = new Padding(3, 2, 3, 2);
             btnCamiones.Name = "btnCamiones";
             btnCamiones.Size = new Size(157, 34);
-            btnCamiones.TabIndex = 0;
+            btnCamiones.TabIndex = 1;
             btnCamiones.Text = "Camiones";
             btnCamiones.UseVisualStyleBackColor = false;
             btnCamiones.Click += btnCamiones_Click;
@@ -64,7 +64,7 @@
             btnChoferes.Margin = new Padding(3, 2, 3, 2);
             btnChoferes.Name = "btnChoferes";
             btnChoferes.Size = new Size(157, 34);
-            btnChoferes.TabIndex = 1;
+            btnChoferes.TabIndex = 2;
             btnChoferes.Text = "Choferes";
             btnChoferes.UseVisualStyleBackColor = false;
             btnChoferes.Click += btnChoferes_Click;
@@ -78,7 +78,7 @@
             btnClientes.Margin = new Padding(3, 2, 3, 2);
             btnClientes.Name = "btnClientes";
             btnClientes.Size = new Size(157, 34);
-            btnClientes.TabIndex = 2;
+            btnClientes.TabIndex = 3;
             btnClientes.Text = "Clientes";
             btnClientes.UseVisualStyleBackColor = false;
             btnClientes.Click += btnClientes_Click;
@@ -92,9 +92,10 @@
             btnViajes.Margin = new Padding(3, 2, 3, 2);
             btnViajes.Name = "btnViajes";
             btnViajes.Size = new Size(157, 34);
-            btnViajes.TabIndex = 3;
+            btnViajes.TabIndex = 4;
             btnViajes.Text = "Viajes";
             btnViajes.UseVisualStyleBackColor = false;
+            btnViajes.Click += btnViajes_Click;
             // 
             // btnMantenimiento
             // 
@@ -105,7 +106,7 @@
             btnMantenimiento.Margin = new Padding(3, 2, 3, 2);
             btnMantenimiento.Name = "btnMantenimiento";
             btnMantenimiento.Size = new Size(157, 34);
-            btnMantenimiento.TabIndex = 4;
+            btnMantenimiento.TabIndex = 5;
             btnMantenimiento.Text = "Mantenimiento";
             btnMantenimiento.UseVisualStyleBackColor = false;
             // 
@@ -118,7 +119,7 @@
             btnFinanzas.Margin = new Padding(3, 2, 3, 2);
             btnFinanzas.Name = "btnFinanzas";
             btnFinanzas.Size = new Size(157, 34);
-            btnFinanzas.TabIndex = 5;
+            btnFinanzas.TabIndex = 6;
             btnFinanzas.Text = "Finanzas";
             btnFinanzas.UseVisualStyleBackColor = false;
             // 
@@ -131,7 +132,7 @@
             btnSalir.Margin = new Padding(3, 2, 3, 2);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(157, 34);
-            btnSalir.TabIndex = 6;
+            btnSalir.TabIndex = 7;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = false;
             btnSalir.Click += btnSalir_Click;
